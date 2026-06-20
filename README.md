@@ -12,13 +12,13 @@ This repo is the active GitHub workspace for the RouteBuilder rebuild.
 
 ## Legacy reference
 
-The untouched legacy GitLab clone remains here:
+The untouched legacy source-of-truth repo is:
 
-`/data/.openclaw/workspace/gitlab-source/runbuilder`
+`https://git.customd.com/urgent-couriers/runbuilder.git`
 
-That repo stays as the source-of-truth reference for current behaviour.
+That repo stays as the reference for current behaviour.
 
 ## Intent
 
-- `gitlab-source/runbuilder` = legacy reference
-- `routebuilder` = active GitHub rebuild repo Kevin can clone back into GitLab for implementation work
+- `runbuilder` on GitLab = legacy reference
+- `routebuilder` on GitHub = active rebuild repo Kevin can clone back into GitLab for implementation work

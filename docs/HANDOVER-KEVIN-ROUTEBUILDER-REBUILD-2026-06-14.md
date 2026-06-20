@@ -6,23 +6,23 @@
 ## Claude Code steps
 
 ```bash
-cd /data/.openclaw/workspace/gitlab-source/dfrntdrive_configurator
-ls -la docs/HANDOVER-KEVIN-ROUTEBUILDER-REBUILD-2026-06-14.md
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/Controllers/JobController.cs
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/Controllers/RouteController.cs
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/Models/Repository/JobRepository.cs
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/Models/DespatchContext.cs
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/Models/DespatchContextProcedures.cs
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/homeControl.js
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/homeService.js
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/runList.tpl
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/runBuilder.tpl
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/jobList.tpl
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/jobDetail.tpl
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/groupedJobs.tpl
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/HereMap.tpl
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/pickDateForm.tpl
-ls -la /data/.openclaw/workspace/gitlab-source/runbuilder/wwwroot/app/components/home/tpls/gpsForm.tpl
+git clone https://git.customd.com/urgent-couriers/runbuilder.git
+cd runbuilder
+ls -la Controllers/JobController.cs
+ls -la Controllers/RouteController.cs
+ls -la Models/Repository/JobRepository.cs
+ls -la Models/DespatchContext.cs
+ls -la Models/DespatchContextProcedures.cs
+ls -la wwwroot/app/components/home/homeControl.js
+ls -la wwwroot/app/components/home/homeService.js
+ls -la wwwroot/app/components/home/tpls/runList.tpl
+ls -la wwwroot/app/components/home/tpls/runBuilder.tpl
+ls -la wwwroot/app/components/home/tpls/jobList.tpl
+ls -la wwwroot/app/components/home/tpls/jobDetail.tpl
+ls -la wwwroot/app/components/home/tpls/groupedJobs.tpl
+ls -la wwwroot/app/components/home/tpls/HereMap.tpl
+ls -la wwwroot/app/components/home/tpls/pickDateForm.tpl
+ls -la wwwroot/app/components/home/tpls/gpsForm.tpl
 ```
 
 ---
@@ -71,7 +71,7 @@ So Kevin's scope is not just route setup. It is a **full operational run-buildin
 
 ## What the legacy Runbuilder actually is
 
-Based on the current GitLab repo at `/data/.openclaw/workspace/gitlab-source/runbuilder`, the existing tool is a mixed AngularJS + ASP.NET MVC operational app with these layers:
+Based on the current GitLab repo at `https://git.customd.com/urgent-couriers/runbuilder.git`, the existing tool is a mixed AngularJS + ASP.NET MVC operational app with these layers:
 
 ### UI shell
 - `Views/Home/Index.cshtml`

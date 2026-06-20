@@ -4,8 +4,8 @@ date: 2026-06-20
 audience: Kevin / Steve
 status: Canonical single-document brief
 source_repos:
-  - legacy: /data/.openclaw/workspace/gitlab-source/runbuilder
-  - rebuild: /data/.openclaw/workspace/routebuilder
+  - legacy: https://git.customd.com/urgent-couriers/runbuilder.git
+  - rebuild: https://github.com/Deliver-Different-Testing/routebuilder
 related_docs:
   - HANDOVER-KEVIN-ROUTEBUILDER-REBUILD-2026-06-14.md
   - STEVE-ROUTEBUILDER-V2-PARITY-LIFT-PLAN-KEVIN-2026-06-20.md
@@ -44,13 +44,12 @@ The rebuild target is:
 ## 2. Repo split and intent
 
 ### Legacy reference repo
-- Local reference: `/data/.openclaw/workspace/gitlab-source/runbuilder`
+- GitLab reference: `https://git.customd.com/urgent-couriers/runbuilder.git`
 - Purpose: untouched source-of-truth for current behaviour
 
 ### Active rebuild repo
-- GitHub: `https://github.com/Deliver-Different-Testing/routebuilder`
-- Local clone: `/data/.openclaw/workspace/routebuilder`
-- Purpose: active RouteBuilder rebuild workspace Kevin can take back into GitLab for real dev work
+- GitHub rebuild repo: `https://github.com/Deliver-Different-Testing/routebuilder`
+- Purpose: active RouteBuilder rebuild workspace Kevin can clone into GitLab for real dev work
 
 ### Rule
 - **Do not mutate the legacy clone to become the rebuild.**
